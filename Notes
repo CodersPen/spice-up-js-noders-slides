@@ -1,0 +1,19 @@
+Functional programming is a programming paradigm.
+
+Functional programming is the process of building software by composing pure functions, avoiding shared state, mutable data, and side-effects.Functional programming is a programming paradigm
+
+Functional code tends to be more concise, more predictable, and easier to test than imperative or object oriented code
+
+A pure function is a function which:
+
+Given the same inputs, always returns the same output, and
+Has no side-effects
+
+With pure functions, given the same input, you’ll always get the same output. This makes function calls completely independent of other function calls, which can radically simplify changes and refactoring. A change in one function, or the timing of a function call won’t ripple out and break other parts of the program.
+
+Side Effects
+
+A side effect is any application state change that is observable outside the called function other than its return value. 
+
+Side effects are mostly avoided in functional programming, which makes the effects of a program much easier to understand, and much easier to test.
+
